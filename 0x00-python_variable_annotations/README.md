@@ -1,4 +1,5 @@
 # Python - Variable Annotations
+![mypy](https://github.com/alchemistlowkey/alx-backend-python/assets/46524038/4493c44b-947a-4908-adeb-bae3246adfca)
 
 ## Concepts
 For this project, we expect you to look at this concept:
