@@ -1,4 +1,5 @@
 # Python - Async
+![async](https://github.com/alchemistlowkey/alx-backend-python/assets/46524038/b7631c89-0f53-465f-917a-818daf4c3711)
 
 ## Resources
 ### Read or watch:
