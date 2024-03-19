@@ -1,4 +1,5 @@
 # Python - Async
+<img width="638" alt="async-comp" src="https://github.com/alchemistlowkey/alx-backend-python/assets/46524038/6ec5099b-bf09-43e0-b1bd-db54237e0656">
 
 ## Resources
 ### Read or watch:
