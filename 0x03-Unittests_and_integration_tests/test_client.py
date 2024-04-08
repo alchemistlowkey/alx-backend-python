@@ -50,15 +50,17 @@ class TestGithubOrgClient(unittest.TestCase):
         """
         Method to unit-test GithubOrgClient.public_repos.
         """
-
+        # Define known payload
         known_payload = [{"name": "repo1"}, {"name": "repo2"}]
+        # Mock to return known payload
         mock.return_value = known_payload
 
         with patch('client.GithubOrgClient._public_repos_url',
                    new_callable=PropertyMock) as mocked:
             mocked.return_value = "Backend"
+            # Create instance
             githuh_client = GithubOrgClient("test")
-
+            # Call the method
             result = githuh_client.public_repos()
 
             expected = ["repo1", "repo2"]
