@@ -1,0 +1,9 @@
+#!/bin/bash
+
+python3 "$1"
+
+green "$1" -vvv
+
+py.test -v "$1"
+
+nosetests -v "$1"
