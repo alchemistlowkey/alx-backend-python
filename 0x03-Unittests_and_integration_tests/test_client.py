@@ -57,7 +57,7 @@ class TestGithubOrgClient(unittest.TestCase):
 
         with patch('client.GithubOrgClient._public_repos_url',
                    new_callable=PropertyMock) as mocked:
-            mocked.return_value = "Backend"
+            mocked.return_value = "school"
             # Create instance
             githuh_client = GithubOrgClient("test")
             # Call the method
